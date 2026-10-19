@@ -1,0 +1,9 @@
+$kind: http-request
+name: http://localhost:8080/api/students/2
+description: ""
+url: http://localhost:8080/api/students/2
+method: DELETE
+body:
+  type: json
+  content: ""
+order: 1791442648748
