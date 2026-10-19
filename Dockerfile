@@ -1,6 +1,6 @@
 # Step 1: Build the artifact using Maven
 FROM maven:3.8.5-openjdk-17 AS build
-COPY ..
+COPY . .
 RUN mvn clean package -DskipTests
 # Step 2: Run the built JAR file using a slim Java runtime
 FROM openjdk:17-jdk-slim
